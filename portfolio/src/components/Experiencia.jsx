@@ -17,7 +17,7 @@ const Experiencia = () => {
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Eccomerce</h2>
-          <p class="leading-relaxed">Me desenvolví como desarrollador Backend en un Eccomerce para una pequeña empresa, mi tareas eran; creación de la base de datos para la gestión, asi como tambien los distintos endpoints para el manejo de todos los productos. Tambien la implementacion de una pasarela de pagos.</p>
+          <p class="leading-relaxed">Desempeñé el rol de desarrollador Backend y lideré un proyecto de Ecommerce para una empresa de tamaño reducido. Mis responsabilidades incluyeron la creación y gestión de la base de datos para el sistema, así como el diseño e implementación de diversos endpoints para administrar todos los productos. Además, lideré la integración de una pasarela de pagos para garantizar un proceso de compra seguro y fluido.</p>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@ const Experiencia = () => {
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Sistema de gestion de taller mecanico</h2>
-          <p class="leading-relaxed">Trabajé como desarrollador Full Stack para crear un sistema de gestion de vehiculos para un taller mecanico, mis tareas en el frontend abarcaron la creacion de las distintas vistas, para gestion de autos, repuestos, y garantias, En el Backend manejé la base de datos y la creacion de distintos endpoints CRUD para la gestion de los vehiculos, Garantias y respuestos.</p>
+          <p class="leading-relaxed">Me desempeñé como desarrollador Full Stack en el desarrollo de un sistema de gestión de vehículos para un taller mecánico. En el frontend, fui responsable de crear diversas vistas para la gestión de autos, repuestos y garantías. En el Backend, dirigí la gestión de la base de datos y desarrollé múltiples endpoints CRUD para administrar vehículos, garantías y repuestos.</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ const Experiencia = () => {
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Sistema de gestion de bienes</h2>
-          <p class="leading-relaxed">Como Full Stack Developer desarrollé un Sistema de Registro y Contabilización de Bienes de Uso, que facilitó el proceso de registro, seguimiento y contabilización de bienes dentro de la compañía.</p>
+          <p class="leading-relaxed">En mi rol como Full Stack Developer, lideré el desarrollo de un Sistema de Registro y Contabilización de Bienes de Uso. Este sistema simplificó el proceso de registro, seguimiento y contabilización de los activos de la compañía, mejorando la eficiencia y precisión en la gestión de los recursos empresariales.</p>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@ const Experiencia = () => {
         </div>
         <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">No country</h2>
-          <p class="leading-relaxed">Trabajé como desarrollador Backend en un equipo de No country. Utilizamos la Metodología de trabajo SCRUM, utilizando Trello para gestión de tareas. Mi tarea fue la creacion de distintos endpoints para gestionar eventos de la comunidad.</p>
+          <p class="leading-relaxed">Como desarrollador Backend, formé parte de un equipo en No Country. Adoptamos la metodología ágil SCRUM, utilizando Trello para la gestión de tareas. Mi responsabilidad principal consistió en desarrollar varios endpoints para la gestión de eventos de la comunidad.</p>
         </div>
       </div>
     </div>
