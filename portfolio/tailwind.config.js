@@ -15,6 +15,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'custom-blue': '#00337C',
+        'custom-white': '#fef9f9',
+        'custom-ligthblue': '#50aabf',
+        'custom-green': '#1ed09a',
+      },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
       },
@@ -22,7 +28,7 @@ module.exports = {
         "loop-scroll": {
           from: {transform: "translateX(0)"},
           to:{transform: "translateX(-100%)"}
-        }
+        },
       }
     },
   },

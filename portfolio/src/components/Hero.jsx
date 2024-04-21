@@ -7,17 +7,17 @@ const Hero = () => {
           <div class="flex flex-1 flex-col items-start gap-12 px-3 pb-6 md:pb-12 lg:px-24 lg:pb-0">
               <span class="inline-flex rounded-[64px] border text-center font-semibold transition-all duration-300 ease-in-out h-7 px-3 py-1 text-sm leading-tight border-blue-300 bg-blue-50 text-blue-600">Tailframes v1.0</span>
               <div class="flex max-w-lg flex-col gap-6">
-                  <h3 class="text-4xl font-semibold text-slate-950 md:text-6xl">Full Stack Developer</h3>
-                  <h4 class="text-lg font-normal leading-7 text-slate-500">¡Hola! Soy Axel, un apasionado desarrollador Full-Stack gradudado del bootcamp soyHenry con experiencia en la creación de aplicaciones web robustas e innovadoras.</h4>
+                  <h3 class="text-4xl font-semibold text-custom-white md:text-6xl">Full Stack Developer</h3>
+                  <h4 class="text-lg font-normal leading-7 text-custom-ligthblue">¡Hola! Soy Axel, un apasionado desarrollador Full-Stack gradudado del bootcamp soyHenry con experiencia en la creación de aplicaciones web robustas e innovadoras.</h4>
               </div>
               <div class="flex gap-4">
                   <button type="button"
-                      class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-blue-700 stroke-white px-6 text-white hover:bg-blue-950 h-[42px] min-w-[42px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100">
-                      <span>Descargar CV</span>
+                      class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-custom-white stroke-white px-6 text-white hover:bg-blue-950 h-[42px] min-w-[42px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100">
+                      <span className='text-custom-ligthblue'>Descargar CV</span>
                   </button>
                   <button type="button"
                       class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-blue-700 px-2 text-blue-700 h-[42px] min-w-[42px] gap-2 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950">
-                      <span>Ver experiencia</span>
+                      <span className='text-custom-green'>Ver experiencia</span>
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" class="size-6 stroke-inherit">
                           <path d="M11 16L15 12L11 8" stroke-linecap="round" stroke-linejoin="round"></path>
                           <circle cx="12" cy="12" r="9"></circle>
