@@ -2,8 +2,12 @@ import React from 'react'
 
 const Redes = () => {
   return (
-    <><button
-          class="group w-12 hover:w-44 h-12 hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45"
+    <>
+    <div className="text-center mb-8">
+    <h2 className="text-xl font-bold mb-4 text-custom-white">O escribeme por cualquiera de mis redes</h2>
+    <div className='flex justify-center align'>
+    <button
+          class="group w-12 hover:w-44 h-12 hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45 mr-4"
       >
           <svg
               y="0"
@@ -21,9 +25,9 @@ const Redes = () => {
           </svg>
           <span
               class="origin-left inline-flex duration-100 group-hover:duration-300 group-hover:delay-500 opacity-0 group-hover:opacity-100 border-l-2 px-1 transform scale-x-0 group-hover:scale-x-100 transition-all"
-          >Axel Gomez</span>
+          >Linkedin</span>
       </button><button
-          class="group w-12 hover:w-44 h-12 hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45"
+          class="group w-12 hover:w-44 h-12 hover:bg-green-600 relative bg-green-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-green-700 before:hover:bg-green-600 before:rotate-45 mr-4"
       >
               <svg
                   y="0"
@@ -43,7 +47,7 @@ const Redes = () => {
                   class="origin-left inline-flex duration-100 group-hover:duration-300 group-hover:delay-500 opacity-0 group-hover:opacity-100 border-l-2 px-1 transform scale-x-0 group-hover:scale-x-100 transition-all"
               >Whatsapp</span>
           </button><button
-              class="group w-12 hover:w-44 h-12 hover:bg-sky-600 relative bg-sky-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-sky-700 before:hover:bg-sky-600 before:rotate-45"
+              class="group w-12 hover:w-44 h-12 hover:bg-gray-600 relative bg-gray-700 rounded text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-gray-700 before:hover:bg-gray-600 before:rotate-45 mr-4"
           >
               <svg
                   y="0"
@@ -62,7 +66,9 @@ const Redes = () => {
               <span
                   class="origin-left inline-flex duration-100 group-hover:duration-300 group-hover:delay-500 opacity-0 group-hover:opacity-100 border-l-2 px-1 transform scale-x-0 group-hover:scale-x-100 transition-all"
               >Github</span>
-          </button></>
+          </button>
+          </div>
+          </div></>
 
   )
 }

@@ -3,6 +3,9 @@ import React from 'react'
 const Experiencia = () => {
   return (
     <section class="text-gray-600 body-font">
+  <div className="text-center mt-24">
+  <h2 className="text-5xl font-bold mb-4 text-custom-green" id="experiencias">Experiencia</h2> 
+  </div>
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">

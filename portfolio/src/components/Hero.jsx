@@ -5,7 +5,6 @@ const Hero = () => {
   return (
     <section class="m-auto flex w-full max-w-screen-2xl grow flex-col-reverse items-center justify-start gap-12 lg:flex-row lg:gap-24">
           <div class="flex flex-1 flex-col items-start gap-12 px-3 pb-6 md:pb-12 lg:px-24 lg:pb-0">
-              <span class="inline-flex rounded-[64px] border text-center font-semibold transition-all duration-300 ease-in-out h-7 px-3 py-1 text-sm leading-tight border-blue-300 bg-blue-50 text-blue-600">Tailframes v1.0</span>
               <div class="flex max-w-lg flex-col gap-6">
                   <h3 class="text-4xl font-semibold text-custom-white md:text-6xl">Full Stack Developer</h3>
                   <h4 class="text-lg font-normal leading-7 text-custom-ligthblue">¡Hola! Soy Axel, un apasionado desarrollador Full-Stack gradudado del bootcamp soyHenry con experiencia en la creación de aplicaciones web robustas e innovadoras.</h4>
@@ -25,8 +24,8 @@ const Hero = () => {
                   </button>
               </div>
           </div>
-          <div class="mb-5 flex w-full items-center justify-center bg-slate-50 py-28 lg:mb-0 lg:py-52 2xl:flex-1">
-              <img src="/images/axel.jpg" alt=""/>
+          <div class="mb-5 flex w-full items-center justify-center lg:mb-0  2xl:flex-1">
+              <img src="/images/axel.png"  height="300px" width="300px"alt=""/>
           </div>
       </section>
   )

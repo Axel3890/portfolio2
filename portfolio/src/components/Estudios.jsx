@@ -2,10 +2,13 @@ import React from 'react'
 
 const Estudios = () => {
   return (
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font" id="estudios">
+        <div className="text-center mt-24">
+  <h2 className="text-3xl font-bold text-custom-green">Mis estudios</h2> 
+  </div>
               <div class="container px-5 py-24 mx-auto">
-                <p>Hola</p>
-                  <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-custom-green sm:flex-row flex-col">
+        
+                  <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-custom-ligthblue  sm:flex-row flex-col">
                       <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="120" height="120" viewBox="1 -15 250.000000 250.000000"
@@ -128,7 +131,7 @@ c9 13 16 24 15 25 -2 2 -226 53 -233 53 -1 0 -5 -4 -8 -9z"/>
 </svg>
                       </div>
                       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                          <h2 class="text-custom-green text-lg title-font font-medium mb-2">ISCP</h2>
+                          <h2 class="text-custom-ligthblue  text-lg title-font font-medium mb-2">ISCP</h2>
                           <p class="leading-relaxed text-base text-custom-white">Instituto Secundario Carlos Pellegrini. Secundario donde finalizé con el titulo Bachiller en Informatica. Aprendí las bases de HTML, CSS, Bases de datos, logica de programación, entre otras.</p>
 
                       </div>
@@ -177,7 +180,7 @@ c9 13 16 24 15 25 -2 2 -226 53 -233 53 -1 0 -5 -4 -8 -9z"/>
                 </svg>
                       </div>
                       <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Henry</h2>
+                          <h2 class="text-custom-ligthblue text-lg title-font font-medium mb-2">Henry</h2>
                           <p class="leading-relaxed text-base text-custom-white">Bootcamp donde complete exitosamente el curso de Desarrollador Full Stack con más de 800hs de cursada. Donde adquiri conocimientos en React.js. Redux, Javacript, Node.js, Express, PostgreSQL, Sequelize.</p>
                       </div>
                   </div>
