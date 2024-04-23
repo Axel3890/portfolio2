@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root{
+    background: #13005A;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@layer utilities {
+    .paused{
+        animation-play-state: paused;
+    }
+}
